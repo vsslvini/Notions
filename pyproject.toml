@@ -8,8 +8,10 @@ dependencies = [
     "asgiref>=3.11.1",
     "django>=6.0.2",
     "django-cors-headers>=4.9.0",
+    "django-stubs>=5.2.9",
     "djangorestframework>=3.16.1",
     "djangorestframework-simplejwt>=5.5.1",
+    "djangorestframework-stubs>=3.16.8",
     "psycopg2-binary>=2.9.11",
     "pyjwt>=2.11.0",
     "python-dotenv>=1.2.1",
@@ -25,3 +27,4 @@ dev = [
 [tool.pyright]
 venvPath = "."
 venv = ".venv"
+reportIncompatibleVariableOverride = "none"
